@@ -110,7 +110,7 @@
     display: block;
     text-align: center;
   }
-  .social-media-wrapper {
+  .footer-logo-social-wrapper {
     margin-bottom: 72px;
   }
   .footer-subject {
@@ -149,9 +149,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .page-footer-container {
-    padding-left: 108px;
-    padding-right: 164px;
+    max-width: fit-content;
   }
+
   .footer-logo-social-wrapper {
     display: flex;
     justify-content: space-between;

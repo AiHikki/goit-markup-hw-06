@@ -24,7 +24,7 @@
     <header class="page-header">
       <div class="page-header-container container">
         <nav class="navigation">
-          <a href="./index.html" class="logo"
+          <a href="./index.html" class="logo logo-header"
             ><span class="accent-color">Web</span>Studio</a
           >
           <ul class="nav-list">
@@ -656,8 +656,9 @@
       </div>
     </footer>
 
+    <!-- ====== MOBILE MENU ======== -->
     <div class="mobile-menu">
-      <button class="close-mobile-menu-btn">
+      <button class="close-mobile-menu-btn" type="button">
         <svg
           class="close-mobile-menu-icon"
           width="8"
@@ -680,75 +681,76 @@
           </li>
         </ul>
       </nav>
-
-      <address class="mobile-menu-contacts">
-        <ul class="mobile-menu-contacts-list">
-          <li class="mobile-menu-contacts-list-item">
-            <a
-              class="mobile-menu-contacts-info-link active-color"
-              href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
+      <div>
+        <address class="mobile-menu-contacts">
+          <ul class="mobile-menu-contacts-list">
+            <li class="mobile-menu-contacts-list-item">
+              <a
+                class="mobile-menu-contacts-info-link active-color"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-contacts-list-item">
+              <a
+                class="mobile-menu-contacts-info-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-menu-social-list">
+          <li class="mobile-menu-soc-list-item">
+            <a class="mobile-menu-soc-list-link" href="">
+              <svg
+                class="mobile-menu-soc-list-icon"
+                width="24"
+                height="24"
+                aria-label="instagram icon"
+              >
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
-          <li class="mobile-menu-contacts-list-item">
-            <a
-              class="mobile-menu-contacts-info-link"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+          <li class="mobile-menu-soc-list-item">
+            <a class="mobile-menu-soc-list-link" href="">
+              <svg
+                class="mobile-menu-soc-list-icon"
+                width="24"
+                height="24"
+                aria-label="twitter icon"
+              >
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-soc-list-item">
+            <a class="mobile-menu-soc-list-link" href="">
+              <svg
+                class="mobile-menu-soc-list-icon"
+                width="24"
+                height="24"
+                aria-label="facebook icon"
+              >
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-soc-list-item">
+            <a class="mobile-menu-soc-list-link" href="">
+              <svg
+                class="mobile-menu-soc-list-icon"
+                width="24"
+                height="24"
+                aria-label="linkedin icon"
+              >
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-      </address>
-      <ul class="mobile-menu-social-list">
-        <li class="mobile-menu-soc-list-item">
-          <a class="mobile-menu-soc-list-link" href="">
-            <svg
-              class="mobile-menu-soc-list-icon"
-              width="24"
-              height="24"
-              aria-label="instagram icon"
-            >
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-menu-soc-list-item">
-          <a class="mobile-menu-soc-list-link" href="">
-            <svg
-              class="mobile-menu-soc-list-icon"
-              width="24"
-              height="24"
-              aria-label="twitter icon"
-            >
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-menu-soc-list-item">
-          <a class="mobile-menu-soc-list-link" href="">
-            <svg
-              class="mobile-menu-soc-list-icon"
-              width="24"
-              height="24"
-              aria-label="facebook icon"
-            >
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-menu-soc-list-item">
-          <a class="mobile-menu-soc-list-link" href="">
-            <svg
-              class="mobile-menu-soc-list-icon"
-              width="24"
-              height="24"
-              aria-label="linkedin icon"
-            >
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+      </div>
     </div>
 
     <div class="backdrop">
@@ -792,7 +794,6 @@
               </svg>
             </div>
           </div>
-
           <div class="form-field">
             <label class="form-label" for="user-phone"
               >Phone <sup class="required-field-color">*</sup></label
